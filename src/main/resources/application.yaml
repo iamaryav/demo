@@ -1,4 +1,11 @@
 spring:
-  appication:
+  application:
     name: @project.name@
     version: @project.version@
+  output:
+    ansi:
+      enabled: always
+management:
+  tracing:
+    sampling:
+      probability: 1.0
