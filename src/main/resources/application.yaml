@@ -1,7 +1,4 @@
 spring:
-    appication:
-        name: @project.name@
-        version: @project.version@
-
-
-
+  appication:
+    name: @project.name@
+    version: @project.version@
