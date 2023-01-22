@@ -8,14 +8,18 @@ spring:
     password: password
     driver-class-name: org.h2.Driver
   jpa:
-    show-sql: true
+    show-sql: false
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate: 
-      ddl-auto: none  
+      ddl-auto: none 
   output:
     ansi:
       enabled: always
+server:
+  port: 8080 
 management:
-  tracing:
-    sampling:
-      probability: 1.0
+  server:
+    port: 8081
+logging:
+  level:
+    root: INFO
