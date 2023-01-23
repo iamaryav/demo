@@ -6,8 +6,10 @@ import org.springframework.stereotype.Service;
 import com.example.demo.user.dao.UserRepository;
 import com.example.demo.user.mapper.UserMapper;
 import com.example.demo.user.model.User;
+import lombok.extern.slf4j.Slf4j;
 
 @Service
+@Slf4j
 public class UserService {
 
     private final UserMapper userMapper;
@@ -19,6 +21,7 @@ public class UserService {
     }
 
     public List<User> findAllUser() {
+        log.info("Fetched all user details.");
         return Optional.of(userRepository.findAll()).map(userMapper::mapToDtoUsers)
                 .orElse(List.of());
     }
