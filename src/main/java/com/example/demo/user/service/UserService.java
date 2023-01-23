@@ -26,4 +26,10 @@ public class UserService {
                 .orElse(List.of());
     }
 
+    public User createUser(User user) {
+        log.info("User created.");
+        return Optional.of(user).map(userMapper::mapToEntity).map(userRepository::save)
+                .map(userMapper::mapToDto).orElse(null);
+    }
+
 }

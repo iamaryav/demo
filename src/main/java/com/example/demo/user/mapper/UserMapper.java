@@ -11,4 +11,6 @@ public interface UserMapper {
 
     User mapToDto(com.example.demo.user.dao.model.User user);
 
+    com.example.demo.user.dao.model.User mapToEntity(User user);
+
 }

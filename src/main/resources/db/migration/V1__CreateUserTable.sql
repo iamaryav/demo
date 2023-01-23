@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS users (
     password VARCHAR(255),
     firstname VARCHAR(255),
     lastname VARCHAR(255),
-    PRIMARY KEY (ID)
+    PRIMARY KEY (id)
 );
 
 INSERT INTO users (username, password, firstname, lastname) VALUES ('abc1@test.com', 'test1', 'name1', 'last1');
