@@ -23,6 +23,7 @@
 		<guava.version>31.1-jre</guava.version>
 		<jackson.version>2.14.1</jackson.version>
 		<hibernate.version>6.1.6.Final</hibernate.version>
+		<spotbug.version>4.7.3</spotbug.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -246,6 +247,18 @@
 						</path>
 					</annotationProcessorPaths>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.github.spotbugs</groupId>
+				<artifactId>spotbugs-maven-plugin</artifactId>
+				<version>4.7.2.1</version>
+				<dependencies>
+					<dependency>
+						<groupId>com.github.spotbugs</groupId>
+						<artifactId>spotbugs</artifactId>
+						<version>${spotbug.version}</version>
+					</dependency>
+				</dependencies>
 			</plugin>
 		</plugins>
 	</build>

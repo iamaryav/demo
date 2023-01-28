@@ -4,9 +4,12 @@ Java and Spring Boot.
 Configuring Spring Boot application with all the features.
 
 ## Upcoming Features
+- Lombok support in vs code and Intellij
+- mvn clean install support
 - All REST Endpoints GET, POST, PUT, PATCH, DELETE
 - Save timestamp in Revinfo table instead of long value
 - Scheduler, Shedlock and Redis support
+- Ehcache caching support
 - JSON Schema to Pojo features
 - SpotBugs features from google Library
 - Git Hook best practices supoort
@@ -26,3 +29,10 @@ Configuring Spring Boot application with all the features.
 - Flyway Migration support
 - Table Auditing
 - Health and Prometheus metrics
+
+## Configuration needed to run the application  
+For Intellij lombook support add this in below path  
+Settings > Build, Execution, Deployment > Compiler > shared build process VM options
+```
+-Djps.track.ap.dependencies=false
+```
