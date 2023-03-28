@@ -11,7 +11,7 @@ public class DemoController {
 
     @GetMapping("/printSomething")
     public String getValue() {
-        log.info("Hello, World!");
+        //log.info("Hello, World!");
         return "Hello, World";
     }
 
