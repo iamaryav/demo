@@ -4,9 +4,9 @@ Java and Spring Boot.
 Configuring Spring Boot application with all the features.
 
 ## Upcoming Features
+- All REST Endpoints GET, POST, PUT, PATCH, DELETE
 - Lombok support in vs code and Intellij
 - mvn clean install support
-- All REST Endpoints GET, POST, PUT, PATCH, DELETE
 - Save timestamp in Revinfo table instead of long value
 - Scheduler, Shedlock and Redis support
 - Ehcache caching support
