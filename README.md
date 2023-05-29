@@ -36,3 +36,9 @@ Settings > Build, Execution, Deployment > Compiler > shared build process VM opt
 ```
 -Djps.track.ap.dependencies=false
 ```
+
+## Useful Documentation Links
+### OpenAPI Swagger
+```
+http://localhost:Port/swagger-ui/index.html#/
+```
