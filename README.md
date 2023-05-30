@@ -19,6 +19,7 @@ Configuring Spring Boot application with all the features.
 - Mother Pattern Support for Test case data
 - JSON Log support
 - Docker compose yml
+- Cloud Support
 - Pipeline support on GitHub
 
 ## Features
@@ -40,5 +41,5 @@ Settings > Build, Execution, Deployment > Compiler > shared build process VM opt
 ## Useful Documentation Links
 ### OpenAPI Swagger
 ```
-http://localhost:Port/swagger-ui/index.html#/
+http://localhost:port/swagger-ui/index.html#/
 ```
