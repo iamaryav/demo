@@ -41,5 +41,6 @@ management:
 logging:
   level:
     root: INFO
+    '[org.hibernate.envers.boot]': OFF
   pattern:
     level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
