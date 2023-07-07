@@ -5,8 +5,6 @@ Configuring Spring Boot application with all the features.
 
 ## Upcoming Features
 - All REST Endpoints GET, POST, PUT, PATCH, DELETE
-- Lombok support in vs code and Intellij
-- mvn clean install support
 - Save timestamp in Revinfo table instead of long value
 - Scheduler, Shedlock and Redis support
 - Ehcache caching support
@@ -32,12 +30,6 @@ Configuring Spring Boot application with all the features.
 - Table Auditing
 - Health and Prometheus metrics
 
-## Configuration needed to run the application  
-For Intellij lombook support add this in below path  
-Settings > Build, Execution, Deployment > Compiler > shared build process VM options
-```
--Djps.track.ap.dependencies=false
-```
 
 ## Useful Documentation Links
 ### OpenAPI Swagger
