@@ -18,6 +18,7 @@
 		<java.version>17</java.version>
 		<spring-cloud.version>2022.0.0</spring-cloud.version>
 		<mapstruct.version>1.5.3.Final</mapstruct.version>
+		<lombok.version>1.18.28</lombok.version>
 		<open-api-mvc.version>2.0.2</open-api-mvc.version>
 		<commons-lang3.version>3.12.0</commons-lang3.version>
 		<guava.version>31.1-jre</guava.version>
@@ -244,6 +245,11 @@
 							<groupId>org.mapstruct</groupId>
 							<artifactId>mapstruct-processor</artifactId>
 							<version>${mapstruct.version}</version>
+						</path>
+						<path>
+							<groupId>org.projectlombok</groupId>
+							<artifactId>lombok</artifactId>
+							<version>${lombok.version}</version>
 						</path>
 					</annotationProcessorPaths>
 				</configuration>
