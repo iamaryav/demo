@@ -14,12 +14,13 @@ Configuring Spring Boot application with all the features.
 - SpotBugs features from google Library
 - Git Hook best practices supoort
 - Spring Batch and Spring Integration support
-- Test support Spock and Groovy
+- Test support with Spock and Groovy
+- Approval Test support
 - REST Docs support
 - Mother Pattern Support for Test case data
-- JSON Log support
+- JSON Log support for cloud
 - Docker compose yml
-- Cloud Support
+- Cloud Deployment Support
 - Pipeline support on GitHub
 
 ## Features

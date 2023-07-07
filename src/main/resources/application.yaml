@@ -4,12 +4,15 @@ spring:
     version: @project.version@
   datasource:
     url: jdbc:h2:mem:demo
-    username: sa
-    password: password
+    username: "${DB_USERNAME:sa}"
+    password: "${DB_PASSWORD:password}"
     driver-class-name: org.h2.Driver
   jpa:
     show-sql: false
     database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate:
+        format_sql: false
     hibernate: 
       ddl-auto: validate
   output:
@@ -33,6 +36,8 @@ management:
     web:
       exposure:
         include: health, info, prometheus
+
+# This setting will be removed with logback.xml file
 logging:
   level:
     root: INFO
