@@ -6,6 +6,7 @@ Configuring Spring Boot application with all the features.
 ## Upcoming Features
 - All REST Endpoints GET, POST, PUT, PATCH, DELETE
 - Save timestamp in Revinfo table instead of long value
+- Add Jetty server support
 - Scheduler, Shedlock and Redis support
 - Ehcache caching support
 - JSON Schema to Pojo features
